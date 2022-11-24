@@ -24,7 +24,7 @@ The readme file will point to existing popular resources such as [Git Hub skills
 - Course materials
 - Slides if they are programmable (ImJoy slides)
 
-### GitHun is NOT 
+### GitHub is NOT 
 - A data storage
 </details>
 
