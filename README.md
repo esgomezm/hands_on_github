@@ -2,7 +2,7 @@
 
 This repository is meant to provide a short introduction to GitHub in an informal way. It is tailored for the different activities that we run in the lab rather than as a course. 
 
-The readme file will point to existing popular resources such as [Git Hub skills](https://github.com/skills).
+The readme file will point to existing popular resources such as [Git Hub skills](https://github.com/skills) or [GitHub docs](https://docs.github.com/en).
 
 <details id=2>
 <summary><h2>Description</h2></summary>
