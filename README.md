@@ -120,6 +120,58 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
 
 </details>
 
+
+## Practical Exercise 1: first contact :hatching_chick:
+
+(Based on the introductory course of [GitHub skills](https://github.com/skills/introduction-to-github))
+
+1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+2. Create a repository with your account (for example, one related to the main project you are working on). It can be Private.
+3. Click on add file:
+      
+      3.1. If you have something to upload --> upload files. Upload a file, a entire code (t will preserve the directory structure you have) or whatever you want. Choose `create a new branch` before accepting
+      
+      3.2. If you do not have anything, choose add file and name it as `README.nmd`. GitHub can only create markdown (.md) files. Write something like: `This is going to be your first repository :blush:`. Choose `create a new branch` before accepting
+
+5. It will suggest to open a pull request. Do not do it! We are going to explore a bit more. Go to the main page of the repo and choose the new branch. 
+6. Change something in one of the files (either uploading or clicking on edit in the README file). Push the commit.
+7. Open the **pull requests** tab.
+8. Click on **compare & pull request**. It will suggest which branches to compare (the new one with the main, in this case).
+9. In this pull request, go to the **Files changed** tab. Here you can review the changes or edit the files. 
+10. Select **Edit file** from the three dotted **...** menu in the upper right corner of one of the files (e.g., `README.md`) and add some information. For example, a new line with `You are becoming an expert :hatched_chick:`.  
+12. Above your new content, click **Preview**.
+13. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
+14. Click **Commit changes**.
+15. Wait about 20 seconds then refresh this page for the next step.
+16. Get back to the **Conversation** tab and click on **merge pull request**. Write something if you consider it is important. 
+17. Click on **close**.
+18. In the **Settings** tab of your repository, you can see all the activity. 
+
+## Practical Exercise 2: keeping track of your writting :rooster:
+
+1. Got to the [LateX template in Henrique's lab](https://github.com/HenriquesLab/HenriquesLab-bioRxiv-template/tree/main).
+2. Fork the repository in your account.
+3. Go to Overleaf and open a new project with `Import from GitHub`. It may ask you about your GitHub user information. Chose the repository that you just forked.
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/import_from_github.png" align="center" width="200"/>
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/choose_repo_overleaf.png" align="center" width="400"/>
+   
+4. Change something in the document (the title for example). 
+5. In the menu of the document, click on GitHub. It will ask you whether you want to push the changes (i.e., update the repository in your account).
+6. Add a title to your commit and push it. 
+
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/connect_with_github_overleaf.png" align="center" width="200"/>
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/push_changes_overleaf.png" align="center" width="300"/>
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/commit_title_overleaf.png" align="center" width="300"/>
+7. In GitHub, create a release. The tag name will be the one used as a reference for searching commits in the code. Ideally you will have different commits. You can register your supervisor's comments, rebuttals, changes in the bibliography so you can work together with your colleagues and even update your Mendeley or Zotero libraries. 
+
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/release.png" align="center" width="450"/>
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/draft-release.png" align="center" width="450"/>
+
+8. Get back to previous versions of your paper.
+
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/choose-tag.png" align="center" width="300"/>
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/recover_code.png" align="center" width="500"/>
+   
 ## Topics to explore and comment during the session
 
 - Issue tagging and assignments
