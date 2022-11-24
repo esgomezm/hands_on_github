@@ -128,7 +128,7 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
 <details id=7>
 <summary><h2>Practicals</h1></summary>
 
-## Practical Exercise 1: first contact :hatching_chick:
+## Exercise 1: first contact :hatching_chick:
 
 (Based on the introductory course of [GitHub skills](https://github.com/skills/introduction-to-github))
 
@@ -154,7 +154,7 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
 17. Click on **close**.
 18. In the **Settings** tab of your repository, you can see all the activity. 
 
-## Practical Exercise 2: keeping track of your writting :rooster:
+## Exercise 2: keeping track of your writting :rooster:
 
 1. Got to the [LateX template in Henrique's lab](https://github.com/HenriquesLab/HenriquesLab-bioRxiv-template/tree/main).
 2. Fork the repository in your account.
@@ -180,6 +180,41 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
    <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/recover_code.png" align="center" width="500"/>
 
 
+
+## Exercise 3: using GitHub locally from the command line :dragon:
+1. Go to any of the previous repositories and click on **Code**. It will suggest different ways of connecting with your repository.
+   <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/clone.png" align="center" width="500"/>
+2. Copy the `HTTPS` address. 
+3. Open the comand line / terminal of your computer. Locate the system in the directory where you would like to clone the repository. 
+   Flor example:
+   ```
+   cd Documents/PROYECTS/github-handson
+   ```
+   and type:
+   ```
+   git clone https://..... (the copied link)
+   ```
+4. If you go to that directory, you will see all the files copied already. Choose one (the README.md) for example and change it. 
+5. In the terminal now you can write with commands all the steps to update your repository:
+   
+   ```
+   cd your-repo-folder
+   ```
+   This will add all the changes done in the repo:
+   ```
+   git add . 
+   git commit -m "updates from local system"
+   ```
+   This pushes all the changes and updates the repository:
+   ```
+   git push 
+   ```
+The system may ask you to update the user and password. You can update them for the entire system or just locally for one folder. This will depend on the number of accounts you manage. Use global without brackets to set the config for the entire system. 
+   ```
+   git config [--global] user.name "Full Name"
+   git config [--global] user.email "email@address.com"
+   ```
+
 </details>
 
 ## Topics to explore and comment during the session
@@ -187,4 +222,5 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
 - Issue tagging and assignments
 - Workflows and continuous integration
 - Organisation projects 
+- [GitHub gists](https://gist.github.com/)
 
