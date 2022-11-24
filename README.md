@@ -89,14 +89,20 @@ We can always see in the user's profile if they are part of any public organizat
    <details id=5.3>
    <summary><h2>Update your repository</h2></summary>
    
-   - Commits: The most basic way to update a repository. Basically, you change something in your files, register the changes and update the repository. While we can always check old code, commits are irreversible. This is why many times we work with pull requests.
+   - [Commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits): The most basic way to update a repository. They are small groups of meaningful changes. Basically, you change something in your files, register the changes and update the repository. While we can always check old code, commits are irreversible. This is why many times we work with pull requests.
    - [Pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests): It can gather a number of commits (registered changes in your code) or it is a way to contribute to someone's main code. They are used when the code needs to be changed considerably but the updates might be unstable, to work on aa general update or collaborate with someone's code. Indeed, this is the only way to contribute to someone's code when you do not have permissions to change it. A very nice feature of Pull Requests is that they allow discussions and reviews.
    - [Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches): GitHub repositories are organised in branches. The repository always has at least the main branch and then you can create additional ones wihout affecting the main code. They are quite useful when an exiting code is under development and you are actively working with it, as it does not disturb the main repository. Usually, we work on the branch and once the code is ready to be updated, we open a pull request to merge its content with the main repository.
+   - [Tags](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/managing-commits/managing-tags): Tags are associated with commits, so you can use a tag to mark an individual point in your repository's history, including a version number for a release.
    
-      
-
    </details>
+  
+   <details id=5.4>
+   <summary><h2>Packaging your repo and track of versions</h2></summary>
+    
+   Releases are created once a repo is ready to be used, distributed or to set a version:
+   - [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases): They package the repository and also allow including additional files for distribution. Releases are always associated with a branch and they always createa tag to mark a specific point in the repository's history. It is recommendable to build the version on top of the main branch. 
    
+   </details>
 </details>
 
 
