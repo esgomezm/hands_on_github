@@ -4,6 +4,9 @@ This repository is meant to provide a short introduction to GitHub in an informa
 
 The readme file will point to existing popular resources such as [Git Hub skills](https://github.com/skills) or [GitHub docs](https://docs.github.com/en).
 
+<details id=0>
+<summary><h2>Basic documentation</h1></summary>
+
 <details id=1>
 <summary><h2>Description</h2></summary>
 
@@ -120,6 +123,10 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
 
 </details>
 
+</details>
+
+<details id=7>
+<summary><h2>Practicals</h1></summary>
 
 ## Practical Exercise 1: first contact :hatching_chick:
 
@@ -171,7 +178,10 @@ GitHub keeps record of the changes in your code and your activity. Therefore, it
 
    <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/choose-tag.png" align="center" width="300"/>
    <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/recover_code.png" align="center" width="500"/>
-   
+
+
+</details>
+
 ## Topics to explore and comment during the session
 
 - Issue tagging and assignments
