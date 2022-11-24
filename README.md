@@ -53,3 +53,24 @@ We can always see in the user's profile if they are part of any public organizat
 
 </details>
 
+<details id=5>
+<summary><h1>Tips building up a documented coding repository</h1></summary>
+
+- Name: avoid using underscores (`_`) in the name. Changing the name of a repository in the future is not recommendable as all the links depend on this naming so take some time to think about it.
+- Public/Private: this is personal and depends on each project. Any of the choices are reversible.
+- README.md: It is the first thing that anyone will see when entering in your repo. It can be the main entry to the documentation of your code or the source to link other resources (webpages, wiki). It is a good place to link the code with any existing reference and to indicate how to cite the work.
+- .gitignore: it tells git which files or folders should not be tracked.
+- License: If you are developing some code that is expected to be public in the future, you shoudl always care about its license. GitHub has already the templates for many different licenses. The most common ones for open source are MIT, BSL3-Clause, BSL2-Clause, but the are plenty of them.
+
+
+![GitHub user with organisations](https://github.com/esgomezm/hands_on_github/raw/main/images/create_repo.png)
+
+</details>
+
+<details id=x>
+<summary><h1>Topics to explore and comment during the session</h1></summary>
+
+- Issue tagging and assignments
+- Workflows and continuous integration
+- Organisation projects 
+</details>
