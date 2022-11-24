@@ -4,7 +4,7 @@ This repository is meant to provide a short introduction to GitHub in an informa
 
 The readme file will point to existing popular resources such as [Git Hub skills](https://github.com/skills) or [GitHub docs](https://docs.github.com/en).
 
-<details id=2>
+<details id=1>
 <summary><h2>Description</h2></summary>
 
 (Extracted from [Simplilearn platform](https://www.simplilearn.com/tutorials/git-tutorial))
@@ -14,7 +14,7 @@ The readme file will point to existing popular resources such as [Git Hub skills
    
 </details>
 
-<details id=2.1>
+<details id=1.1>
 <summary><h2>How are GitHub accounts organized</h2></summary>
 
   - **Personal GitHub account**: is unique and the owner of the account is the only one who can manage it. A personal account can have both private and public repositories. In the free version, each personal account can have a personal webpage built on top of GitHub pages. 
@@ -30,7 +30,7 @@ We can always see in the user's profile if they are part of any public organizat
 ![GitHub user with organisations](https://github.com/esgomezm/hands_on_github/raw/main/images/curtis_profile.png)
 </details>
 
-<details id=3>
+<details id=2>
 <summary><h2>When do we use GitHub?</h2></summary>
 
 ### Examples of GitHub usage in the lab or in science:
@@ -45,6 +45,12 @@ We can always see in the user's profile if they are part of any public organizat
 - A data storage
 </details>
 
+<details id=3>
+<summary><h2>Why should you consider using GitHub?</h2></summary>
+
+GitHub keeps record of the changes in your code and your activity. Therefore, it is a way to get back to previous code without storing different packages and to avoid messing up your developments. Moreover, it enables a more organised way of collaborations. It can keep track of the versions. For paper writting, it enables switching between templates and versions, and compare between different contributions. It is also a way to prove your contributions to a project and measure your activity. 
+
+</details>
 
 <details id=4>
 <summary><h2>What do you need to start?</h2></summary>
