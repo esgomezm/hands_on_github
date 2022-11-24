@@ -105,6 +105,13 @@ We can always see in the user's profile if they are part of any public organizat
    </details>
 </details>
 
+<details id=6>
+<summary><h2>Interaction with other repositories</h2></summary>
+
+ - **Download**. All the respositories to which one has access (public or private) can be downloaded. 
+ - **Fork**. Ideally, when one ones to build a new software upon an exisiting one or to contribute to it considerably. It will create a new repository in our github account but it will keep track of the repository previous history.
+
+</details>
 
 ## Topics to explore and comment during the session
 
