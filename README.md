@@ -83,6 +83,7 @@ We can always see in the user's profile if they are part of any public organizat
    - Scripts to reproduce the environment (`environment.yaml`, `requirements.txt`, `setup.py`, `setup.cfg`).
    - README.md
    - LICENSE
+   - Wiki (optional): it's a collection of markdown files meant to document the repository. It can be used as user guidelines or documentation for the collaborators of the repository. It's an alternative to the README.md for a more extended content. Check out [ZeroCostDL4Mic](https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki).
 
    </details>
    
