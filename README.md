@@ -55,10 +55,10 @@ We can always see in the user's profile if they are part of any public organizat
 </details>
 
 <details id=5>
-<summary><h1>Tips building up a documented software repository</h1></summary>
+<summary><h2>Tips building up a documented software repository</h2></summary>
 
    <details id=5.1>
-   <summary><h2>Create a repo</h2></summary>
+   <summary><h3>Create a repo</h3></summary>
 
    <img src="https://github.com/esgomezm/hands_on_github/raw/main/images/create_repo.png" align="right" width="400"/>
 
@@ -71,7 +71,7 @@ We can always see in the user's profile if they are part of any public organizat
    
    
    <details id=5.2>
-   <summary><h2>Structure your repository</h2></summary>
+   <summary><h3>Structure your repository</h3></summary>
 
    There are different ways of structuring software repositories depending on its use, programming language, dissemination points (conda, pip, maven).
 
@@ -87,7 +87,7 @@ We can always see in the user's profile if they are part of any public organizat
    </details>
    
    <details id=5.3>
-   <summary><h2>Update your repository</h2></summary>
+   <summary><h3>Update your repository</h3></summary>
    
    - [Commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits): The most basic way to update a repository. They are small groups of meaningful changes. Basically, you change something in your files, register the changes and update the repository. While we can always check old code, commits are irreversible. This is why many times we work with pull requests.
    - [Pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests): It can gather a number of commits (registered changes in your code) or it is a way to contribute to someone's main code. They are used when the code needs to be changed considerably but the updates might be unstable, to work on aa general update or collaborate with someone's code. Indeed, this is the only way to contribute to someone's code when you do not have permissions to change it. A very nice feature of Pull Requests is that they allow discussions and reviews.
@@ -97,7 +97,7 @@ We can always see in the user's profile if they are part of any public organizat
    </details>
   
    <details id=5.4>
-   <summary><h2>Packaging your repo and track of versions</h2></summary>
+   <summary><h3>Packaging your repo and track of versions</h3></summary>
     
    Releases are created once a repo is ready to be used, distributed or to set a version:
    - [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases): They package the repository and also allow including additional files for distribution. Releases are always associated with a branch and they always createa tag to mark a specific point in the repository's history. It is recommendable to build the version on top of the main branch. 
@@ -106,10 +106,9 @@ We can always see in the user's profile if they are part of any public organizat
 </details>
 
 
-<details id=x>
-<summary><h1>Topics to explore and comment during the session</h1></summary>
+## Topics to explore and comment during the session
 
 - Issue tagging and assignments
 - Workflows and continuous integration
 - Organisation projects 
-</details>
+
